@@ -21,11 +21,11 @@ End the program.
 
 #RegisterNumber: 212222100051
 
-import numpy as np
-
-A = np.array([[-2,2,-3],[2,1,-6],[-1,-2,0]])
-values,vectors=np.linalg.eig(A)
-print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
+import math
+x1,y1=4,2
+x2,y2=10,6
+result=math.sqrt((x2-x1)**2+(y2-y1)**2)
+print("{:.2f}".format(result))
 ```
 
 
